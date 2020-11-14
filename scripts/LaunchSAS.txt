@@ -1,0 +1,7 @@
+' CheckLog Launch
+Config = \\Polk\data\_Common_Variables_Code_Definitions_Documentation\_SAS_Common_Processes\shared\Config\SASV9_Polk.CFG
+UserInput = InputBox("Enter a name for the SAS session." & Chr(13) & "Leave blank for the default.", "Launch SAS")
+if UserInput = "" then UserInput = "SAS"
+Dim objShell
+Set objShell = WScript.CreateObject( "WScript.Shell" )
+objShell.Run("sas.exe -CONFIG '" & Config & "' -rsasuser -awstitle " & UserInput)
