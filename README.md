@@ -1,5 +1,4 @@
-# sasmacros
-Chris's SAS Macro Programs
+# Chris's SAS Macro Programs
 
 Various utilities for common tasks, including automatic code generation, data quality procedures, functions, and complex processes.
 
