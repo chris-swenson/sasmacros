@@ -146,7 +146,7 @@
         %let ervar=%str(_E)RROR_;
 
         /* Associate with text file */
-        filename Sonnets URL "https://dl.dropboxusercontent.com/u/13629095/Sonnets.txt";
+        filename Sonnets URL "https://raw.githubusercontent.com/chris-swenson/sasmacros/master/fun/Sonnets.txt";
 
         /* Import data from text file */
         data Sonnets;
